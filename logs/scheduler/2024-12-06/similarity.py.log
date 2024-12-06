@@ -1,0 +1,57 @@
+[2024-12-06T11:51:54.586+0900] {processor.py:186} INFO - Started process (PID=127787) to work on /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:51:54.587+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/similarity.py for tasks to queue
+[2024-12-06T11:51:54.591+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:54.590+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:51:56.776+0900] {processor.py:925} INFO - DAG(s) 'user_similarity' retrieved from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:51:57.130+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.130+0900] {override.py:1900} INFO - Created Permission View: can read on DAG:user_similarity
+[2024-12-06T11:51:57.150+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.150+0900] {override.py:1900} INFO - Created Permission View: can delete on DAG:user_similarity
+[2024-12-06T11:51:57.173+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.171+0900] {override.py:1900} INFO - Created Permission View: can edit on DAG:user_similarity
+[2024-12-06T11:51:57.309+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.307+0900] {override.py:1900} INFO - Created Permission View: can read on DAG Run:user_similarity
+[2024-12-06T11:51:57.483+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.482+0900] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:user_similarity
+[2024-12-06T11:51:57.565+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.561+0900] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:user_similarity
+[2024-12-06T11:51:57.603+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.602+0900] {override.py:1900} INFO - Created Permission View: can create on DAG Run:user_similarity
+[2024-12-06T11:51:57.605+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.604+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:51:57.673+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.670+0900] {dag.py:3262} INFO - Creating ORM DAG for user_similarity
+[2024-12-06T11:51:57.702+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:57.702+0900] {dag.py:4180} INFO - Setting next_dagrun for user_similarity to 2024-12-05 00:00:00+00:00, run_after=2024-12-06 00:00:00+00:00
+[2024-12-06T11:51:57.761+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/similarity.py took 3.184 seconds
+[2024-12-06T11:52:28.293+0900] {processor.py:186} INFO - Started process (PID=128099) to work on /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:52:28.299+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/similarity.py for tasks to queue
+[2024-12-06T11:52:28.309+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:52:28.308+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:52:29.554+0900] {processor.py:925} INFO - DAG(s) 'user_similarity' retrieved from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:52:29.576+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:52:29.575+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:52:29.593+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:52:29.593+0900] {dag.py:4180} INFO - Setting next_dagrun for user_similarity to 2024-12-05 00:00:00+00:00, run_after=2024-12-06 00:00:00+00:00
+[2024-12-06T11:52:29.621+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/similarity.py took 1.353 seconds
+[2024-12-06T11:53:31.169+0900] {processor.py:186} INFO - Started process (PID=129318) to work on /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:53:31.172+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/similarity.py for tasks to queue
+[2024-12-06T11:53:31.175+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:53:31.175+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:53:32.226+0900] {processor.py:925} INFO - DAG(s) 'user_similarity' retrieved from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:53:32.251+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:53:32.250+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:53:32.279+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:53:32.279+0900] {dag.py:4180} INFO - Setting next_dagrun for user_similarity to 2024-12-05 00:00:00+00:00, run_after=2024-12-06 00:00:00+00:00
+[2024-12-06T11:53:32.307+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/similarity.py took 1.150 seconds
+[2024-12-06T11:54:02.413+0900] {processor.py:186} INFO - Started process (PID=129561) to work on /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:54:02.423+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/similarity.py for tasks to queue
+[2024-12-06T11:54:02.436+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:02.433+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:54:03.601+0900] {processor.py:925} INFO - DAG(s) 'user_similarity' retrieved from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:54:03.625+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:03.624+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:54:03.645+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:03.644+0900] {dag.py:4180} INFO - Setting next_dagrun for user_similarity to 2024-12-05 00:00:00+00:00, run_after=2024-12-06 00:00:00+00:00
+[2024-12-06T11:54:03.682+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/similarity.py took 1.279 seconds
+[2024-12-06T11:54:34.250+0900] {processor.py:186} INFO - Started process (PID=130720) to work on /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:54:34.260+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/similarity.py for tasks to queue
+[2024-12-06T11:54:34.263+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:34.262+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:54:35.055+0900] {processor.py:925} INFO - DAG(s) 'user_similarity' retrieved from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:54:35.072+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:35.072+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:54:35.091+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:35.090+0900] {dag.py:4180} INFO - Setting next_dagrun for user_similarity to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-06T11:54:35.121+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/similarity.py took 0.878 seconds
+[2024-12-06T11:55:05.221+0900] {processor.py:186} INFO - Started process (PID=131027) to work on /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:55:05.231+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/similarity.py for tasks to queue
+[2024-12-06T11:55:05.235+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:05.234+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:55:06.223+0900] {processor.py:925} INFO - DAG(s) 'user_similarity' retrieved from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:55:06.242+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:06.242+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:55:06.266+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:06.266+0900] {dag.py:4180} INFO - Setting next_dagrun for user_similarity to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-06T11:55:06.292+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/similarity.py took 1.080 seconds
+[2024-12-06T11:55:36.473+0900] {processor.py:186} INFO - Started process (PID=131533) to work on /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:55:36.475+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/similarity.py for tasks to queue
+[2024-12-06T11:55:36.478+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:36.478+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:55:37.362+0900] {processor.py:925} INFO - DAG(s) 'user_similarity' retrieved from /home/kyuseok00/final/airflow/dags/similarity.py
+[2024-12-06T11:55:37.377+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:37.376+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:55:37.396+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:37.395+0900] {dag.py:4180} INFO - Setting next_dagrun for user_similarity to 2024-12-06 00:00:00+00:00, run_after=2024-12-07 00:00:00+00:00
+[2024-12-06T11:55:37.414+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/similarity.py took 0.949 seconds

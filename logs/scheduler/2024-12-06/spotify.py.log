@@ -1,0 +1,57 @@
+[2024-12-06T11:51:59.082+0900] {processor.py:186} INFO - Started process (PID=127821) to work on /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:51:59.085+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/spotify.py for tasks to queue
+[2024-12-06T11:51:59.088+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.088+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:51:59.126+0900] {processor.py:925} INFO - DAG(s) 'spotify_token_dag' retrieved from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:51:59.337+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.336+0900] {override.py:1900} INFO - Created Permission View: can read on DAG:spotify_token_dag
+[2024-12-06T11:51:59.394+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.392+0900] {override.py:1900} INFO - Created Permission View: can delete on DAG:spotify_token_dag
+[2024-12-06T11:51:59.443+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.442+0900] {override.py:1900} INFO - Created Permission View: can edit on DAG:spotify_token_dag
+[2024-12-06T11:51:59.484+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.483+0900] {override.py:1900} INFO - Created Permission View: can read on DAG Run:spotify_token_dag
+[2024-12-06T11:51:59.498+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.498+0900] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:spotify_token_dag
+[2024-12-06T11:51:59.564+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.564+0900] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:spotify_token_dag
+[2024-12-06T11:51:59.586+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.586+0900] {override.py:1900} INFO - Created Permission View: can create on DAG Run:spotify_token_dag
+[2024-12-06T11:51:59.587+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.587+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:51:59.612+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.612+0900] {dag.py:3262} INFO - Creating ORM DAG for spotify_token_dag
+[2024-12-06T11:51:59.626+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:51:59.626+0900] {dag.py:4180} INFO - Setting next_dagrun for spotify_token_dag to 2024-12-06 01:00:00+00:00, run_after=2024-12-06 02:00:00+00:00
+[2024-12-06T11:51:59.722+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/spotify.py took 0.653 seconds
+[2024-12-06T11:52:30.193+0900] {processor.py:186} INFO - Started process (PID=128108) to work on /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:52:30.194+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/spotify.py for tasks to queue
+[2024-12-06T11:52:30.197+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:52:30.196+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:52:30.213+0900] {processor.py:925} INFO - DAG(s) 'spotify_token_dag' retrieved from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:52:30.252+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:52:30.251+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:52:30.286+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:52:30.286+0900] {dag.py:4180} INFO - Setting next_dagrun for spotify_token_dag to 2024-12-06 01:00:00+00:00, run_after=2024-12-06 02:00:00+00:00
+[2024-12-06T11:52:30.314+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/spotify.py took 0.136 seconds
+[2024-12-06T11:53:33.442+0900] {processor.py:186} INFO - Started process (PID=129347) to work on /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:53:33.445+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/spotify.py for tasks to queue
+[2024-12-06T11:53:33.449+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:53:33.448+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:53:33.468+0900] {processor.py:925} INFO - DAG(s) 'spotify_token_dag' retrieved from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:53:33.503+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:53:33.502+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:53:33.530+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:53:33.530+0900] {dag.py:4180} INFO - Setting next_dagrun for spotify_token_dag to 2024-12-06 01:00:00+00:00, run_after=2024-12-06 02:00:00+00:00
+[2024-12-06T11:53:33.551+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/spotify.py took 0.119 seconds
+[2024-12-06T11:54:04.868+0900] {processor.py:186} INFO - Started process (PID=129593) to work on /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:54:04.870+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/spotify.py for tasks to queue
+[2024-12-06T11:54:04.873+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:04.872+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:54:04.890+0900] {processor.py:925} INFO - DAG(s) 'spotify_token_dag' retrieved from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:54:04.929+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:04.929+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:54:04.962+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:04.962+0900] {dag.py:4180} INFO - Setting next_dagrun for spotify_token_dag to 2024-12-06 01:00:00+00:00, run_after=2024-12-06 02:00:00+00:00
+[2024-12-06T11:54:04.990+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/spotify.py took 0.134 seconds
+[2024-12-06T11:54:36.197+0900] {processor.py:186} INFO - Started process (PID=130750) to work on /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:54:36.199+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/spotify.py for tasks to queue
+[2024-12-06T11:54:36.202+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:36.201+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:54:36.213+0900] {processor.py:925} INFO - DAG(s) 'spotify_token_dag' retrieved from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:54:36.237+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:36.237+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:54:36.258+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:54:36.258+0900] {dag.py:4180} INFO - Setting next_dagrun for spotify_token_dag to 2024-12-06 01:00:00+00:00, run_after=2024-12-06 02:00:00+00:00
+[2024-12-06T11:54:36.282+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/spotify.py took 0.092 seconds
+[2024-12-06T11:55:07.387+0900] {processor.py:186} INFO - Started process (PID=131064) to work on /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:55:07.397+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/spotify.py for tasks to queue
+[2024-12-06T11:55:07.401+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:07.400+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:55:07.414+0900] {processor.py:925} INFO - DAG(s) 'spotify_token_dag' retrieved from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:55:07.444+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:07.444+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:55:07.466+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:07.466+0900] {dag.py:4180} INFO - Setting next_dagrun for spotify_token_dag to 2024-12-06 01:00:00+00:00, run_after=2024-12-06 02:00:00+00:00
+[2024-12-06T11:55:07.488+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/spotify.py took 0.113 seconds
+[2024-12-06T11:55:38.528+0900] {processor.py:186} INFO - Started process (PID=131554) to work on /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:55:38.530+0900] {processor.py:914} INFO - Processing file /home/kyuseok00/final/airflow/dags/spotify.py for tasks to queue
+[2024-12-06T11:55:38.533+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:38.533+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:55:38.549+0900] {processor.py:925} INFO - DAG(s) 'spotify_token_dag' retrieved from /home/kyuseok00/final/airflow/dags/spotify.py
+[2024-12-06T11:55:38.575+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:38.575+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T11:55:38.598+0900] {logging_mixin.py:190} INFO - [2024-12-06T11:55:38.598+0900] {dag.py:4180} INFO - Setting next_dagrun for spotify_token_dag to 2024-12-06 01:00:00+00:00, run_after=2024-12-06 02:00:00+00:00
+[2024-12-06T11:55:38.621+0900] {processor.py:208} INFO - Processing /home/kyuseok00/final/airflow/dags/spotify.py took 0.106 seconds
