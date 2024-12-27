@@ -15,7 +15,8 @@
 
 ## Docker Compose 실행
 ```
-docker compose -f airflow-compose.yml up -d
+docker compose -f airflow-compose.yml up --build -d
+docker compose -f airflow-compose.yml down
 ```
 
 
