@@ -5,7 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # FastAPI 호출 함수
 # def fetch_movies(movie_ids, endpoint="http://fastapi:8000/movies/list"):
-def fetch_movies(movie_ids, endpoint="http://172.17.0.1:8000/movie/list"):
+# def fetch_movies(movie_ids, endpoint="http://172.17.0.1:8000/movie/list"):
+def fetch_movies(movie_ids, endpoint="http://3.37.94.149:8000/movie/list"):
     try:
         response = requests.get(endpoint, params={"movie_ids": movie_ids})
         if response.status_code == 200:
