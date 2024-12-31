@@ -94,7 +94,8 @@ with DAG(
     dag_id="user_similarity",
     default_args=default_args,
     description="Compute user similarity matrix daily and save to MongoDB",
-    schedule_interval="@daily",
+    # schedule_interval="@daily",
+    schedule_interval="0 */3 * * *",
     start_date=datetime(2024, 12, 4),
     catchup=False,
 ) as dag:
