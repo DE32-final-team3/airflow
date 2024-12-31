@@ -75,12 +75,20 @@ def save_to_mongo(**context):
     if not similarity_data:
         raise ValueError("No similarity data to save.")
 
-    logger.info(f"Saving similarity data to MongoDB: {collection_name}...")
+    logger.info(f"Connecting to MongoDB to save similarity data: {collection_name}...")
     with MongoClient(MONGO_URI) as client:
         db = client[DB_NAME]
+        
+        # 기존 컬렉션 삭제
+        if collection_name in db.list_collection_names():
+            logger.info(f"Collection '{collection_name}' already exists. Dropping it...")
+            db[collection_name].drop()
+            logger.info(f"Collection '{collection_name}' dropped successfully.")
+
+        # 새 데이터 삽입
         collection = db[collection_name]                                       
         collection.insert_many(similarity_data)
-    logger.info(f"Successfully saved {len(similarity_data)} records.")
+        logger.info(f"Successfully saved {len(similarity_data)} records to '{collection_name}'.")
 
 with DAG(
     dag_id="user_similarity",
