@@ -1,4 +1,4 @@
-# Apache Airflow in Docker Container
+# 🎞️ Airflow
 
 ## 파일 구성
 ```
@@ -13,7 +13,7 @@
 └── requirements.txt
 ```
 
-## Docker Compose 실행
+## 실행 방법
 ```
 docker compose -f airflow-compose.yml up --build -d
 docker compose -f airflow-compose.yml down
